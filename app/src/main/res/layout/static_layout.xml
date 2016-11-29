@@ -1,0 +1,102 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_MenuSuperior">
+
+        <ImageView
+            android:id="@+id/bgheader"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/minha_foto" />
+
+        <ImageView
+            android:id="@+id/imagemCapaDetalhes"
+            android:layout_width="100dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/borda"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="100dp"
+            android:elevation="10dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_below="@+id/bgheader"
+            android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/layout_MenuSuperior"
+                android:nestedScrollingEnabled="false">
+
+                <TextView style="@style/Text_widthMatch"
+                    android:id="@+id/tituloPrincipalRevista"
+                    android:text="Teste"
+                    android:textSize="@dimen/text_size_extralarger"
+                    android:layout_marginTop="90dp" />
+
+                <TextView style="@style/Text_widthMatch"
+                    android:id="@+id/descricaoRevista"
+                    android:text="lorem ipsum"
+                    android:layout_below="@+id/tituloPrincipalRevista"
+                    android:layout_marginTop="20dp" />
+
+                <TextView style="@style/Text_widthWrap"
+                    android:id="@+id/labelDataPublicacao"
+                    android:layout_below="@+id/descricaoRevista"
+                    android:text="Published: "
+                    android:textStyle="bold" />
+
+                <TextView style="@style/Text_widthWrap"
+                    android:id="@+id/dataPublicacao"
+                    android:layout_below="@+id/descricaoRevista"
+                    android:layout_toRightOf="@+id/labelDataPublicacao"
+                    android:text="teste" />
+
+                <TextView style="@style/Text_widthWrap"
+                    android:id="@+id/labelPrice"
+                    android:text="Price: "
+                    android:textStyle="bold"
+                    android:layout_below="@+id/labelDataPublicacao" />
+
+                <TextView style="@style/Text_widthWrap"
+                    android:id="@+id/price"
+                    android:layout_toRightOf="@+id/labelPrice"
+                    android:text="teste"
+                    android:layout_below="@+id/labelDataPublicacao" />
+
+                <TextView style="@style/Text_widthWrap"
+                    android:id="@+id/labelPages"
+                    android:layout_below="@+id/labelPrice"
+                    android:text="Pages: "
+                    android:textStyle="bold" />
+
+                <TextView style="@style/Text_widthWrap"
+                    android:id="@+id/pages"
+                    android:layout_below="@+id/labelPrice"
+                    android:layout_toRightOf="@+id/labelPages"
+                    android:text="teste" />
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+
+</RelativeLayout>
+
+
+

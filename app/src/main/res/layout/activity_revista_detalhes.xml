@@ -1,0 +1,119 @@
+<android.support.design.widget.CoordinatorLayout style="@style/divMatchParent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_content"
+    android:fitsSystemWindows="true">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/MyAppbar"
+        android:layout_width="match_parent"
+        android:layout_height="256dp"
+        android:fitsSystemWindows="true">
+
+        <android.support.design.widget.CollapsingToolbarLayout style="@style/divMatchParent"
+            android:id="@+id/collapse_toolbar"
+            app:contentScrim="@color/colorPrimary"
+            android:background="@color/backgroundColor"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:fitsSystemWindows="true">
+
+            <RelativeLayout style="@style/divMatchParent">
+
+                <ImageView style="@style/divMatchParent" android:id="@+id/bgheader"
+                    android:scaleType="centerCrop"
+                    app:layout_collapseMode="pin"
+                    android:layout_marginBottom="70dp"
+                    android:src="@drawable/spider2" />
+
+                <ImageView
+                    android:id="@+id/imagemCapaDetalhes"
+                    android:layout_width="100dp"
+                    android:layout_height="150dp"
+                    app:layout_collapseMode="pin"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/borda"
+                    android:elevation="5dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="80dp"
+                    android:transitionName="imagemCompartilhada"
+                    android:scaleType="centerCrop"
+                    android:onClick="showFullImage" />
+
+            </RelativeLayout>
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/MyToolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin">
+
+                <ImageButton style="@style/divWrap"
+                    android:src="@drawable/ic_arrow_back_white_24dp"
+                    android:background="#00ffffff"               android:onClick="goBack" />
+
+                </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.widget.NestedScrollView style="@style/divMatchParent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:background="@color/backgroundColor">
+
+        <RelativeLayout style="@style/divMatchParent">
+
+            <TextView style="@style/Text_widthMatch"
+                android:id="@+id/tituloPrincipalRevista"
+                android:text="Teste"
+                android:textSize="@dimen/text_size_extralarger" />
+
+            <TextView style="@style/Text_widthMatch"
+                android:id="@+id/descricaoRevista"
+                android:text="lorem ipsum"
+                android:layout_below="@+id/tituloPrincipalRevista"
+                android:layout_marginTop="20dp" />
+
+            <TextView style="@style/Text_widthWrap"
+                android:id="@+id/labelDataPublicacao"
+                android:layout_below="@+id/descricaoRevista"
+                android:text="Published: "
+                android:textStyle="bold" />
+
+            <TextView style="@style/Text_widthWrap"
+                android:id="@+id/dataPublicacao"
+                android:layout_below="@+id/descricaoRevista"
+                android:layout_toRightOf="@+id/labelDataPublicacao"
+                android:text="teste" />
+
+            <TextView style="@style/Text_widthWrap"
+                android:id="@+id/labelPrice"
+                android:text="Price: "
+                android:textStyle="bold"
+                android:layout_below="@+id/labelDataPublicacao" />
+
+            <TextView style="@style/Text_widthWrap"
+                android:id="@+id/price"
+                android:layout_toRightOf="@+id/labelPrice"
+                android:text="teste"
+                android:layout_below="@+id/labelDataPublicacao" />
+
+            <TextView style="@style/Text_widthWrap"
+                android:id="@+id/labelPages"
+                android:layout_below="@+id/price"
+                android:text="Pages: "
+                android:textStyle="bold" />
+
+            <TextView style="@style/Text_widthWrap"
+                android:id="@+id/pages"
+                android:layout_below="@+id/price"
+                android:layout_toRightOf="@+id/labelPages"
+                android:text="teste" />
+
+        </RelativeLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</android.support.design.widget.CoordinatorLayout>

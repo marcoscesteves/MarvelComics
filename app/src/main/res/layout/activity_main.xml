@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/divMatchParent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar android:layout_height="50dp" android:layout_width="match_parent"
+        android:id="@+id/main_toolBar" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/colorPrimary">
+
+        <RelativeLayout style="@style/divMatchParent">
+
+            <android.support.v7.widget.AppCompatImageButton android:id="@+id/btn_goToPerfil"
+                android:layout_height="30dp"            android:layout_width="30dp"
+                android:layout_alignParentRight="true"    android:layout_centerVertical="true"
+                android:layout_marginRight="25dp"
+                android:background="@drawable/quemsou"  android:src="@drawable/ic_person_white_24dp" />
+                <!--android:cropToPadding="true"-->
+
+            <TextView
+                android:id="@+id/marvel_logo_text"
+                android:layout_width="wrap_content"             android:layout_height="30dp"
+                android:text="MARVEL"
+                android:textSize="35sp"
+                android:gravity="center_vertical"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:textColor="#FFF"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerInParent="true"
+            android:elevation="5dp"
+            android:visibility="gone" />
+
+        <in.srain.cube.views.GridViewWithHeaderAndFooter style="@style/divMatchParent" android:id="@+id/gridView"
+            android:numColumns="auto_fit"       android:columnWidth="120dp"
+            android:paddingTop="10dp"
+            android:stretchMode="columnWidth"
+            android:padding="2dp"                android:verticalSpacing="15dp"  />
+    </RelativeLayout>
+
+</LinearLayout>

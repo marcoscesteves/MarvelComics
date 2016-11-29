@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_b8b12a998aa252a22f17aec28c3b44316cef04cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.8.0_dafa18dd3789dc08be3f3a067f5263950c4896bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_e2de33b710600af1df3168a023f882104ad4b7e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="98fd84e368a9e519507584ec46f4d092ec1ac3dd">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_ba70e1c198d97b2b034ce04ddf52d6fb1ed664a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_c644dc86fb7204cdf7cf07d1e72cb7dafcbd08fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_aa9aa152869e7302de0a24a5d848fcb8813d49cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.5.2_640628638bf1d76a4911217cb4eb38f793511e67/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_835ae71195687ca5368745b2c44ba9b879588058/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_e2d859f8cbbefac951425da0a80e0cc013f29b17/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/.gradle/caches/modules-2/files-2.1/in.srain.cube/grid-view-with-header-footer/1.0.12/6b45a6bca9304d0ae6d26d01a2ea2f62bfe46a27/grid-view-with-header-footer-1.0.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6b45a6bca9304d0ae6d26d01a2ea2f62bfe46a27">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/grid-view-with-header-footer-1.0.12_d0bab06c8e921756f5c186e3d5a425572ade97ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ef3851d8d150e54cb14f504410758e7268620a4b">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_3f9250e305e4154839a55c1ff4597453de245fef/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.0/2b802460eea20f8f2ad9c08c74e0f14718e88aa9/okhttp-3.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2b802460eea20f8f2ad9c08c74e0f14718e88aa9">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.3.0_8e4aee03535764d6377195ad06882be14a1c9495/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_94ded6dc2553cacac6f757d495f956e25e06d655/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_7ecce33890403fba189dc0ab69436cf9dcf7975a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/marcoscesteves/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.4/695b63d702f505b9b916e02272e3b6381bade7f/gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="/Users/marcoscesteves/AndroidStudioProjects/MarvelComics/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.4_6817ec29b835d71ddc97d0666919c85fa9c5b34b/classes.dex" />
+    </item>
+
+</items>

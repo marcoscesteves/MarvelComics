@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/divMatchParent"
+    android:id="@+id/containerGroup"
+    android:background="#5000162c">
+
+<ScrollView style="@style/divMatchParent">
+
+<RelativeLayout style="@style/divMatchParent">
+
+    <Button style="@style/divWrap"  android:id="@+id/button_close"
+        android:background="@drawable/round_button"
+        android:text="X"
+        android:textSize="30sp"
+        android:onClick="goBack"
+        android:layout_gravity="right"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:elevation="10dp"
+        android:textColor="#FFFFFF"
+        android:visibility="gone"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp" />
+
+    <ImageView style="@style/divMatchParent" android:id="@+id/img_capaGrande"
+        android:transitionName="imagemCompartilhada"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="30dp"
+        android:layout_width="400dp"
+        android:layout_centerHorizontal="true"
+        android:layout_height="600dp" />
+
+</RelativeLayout>
+
+</ScrollView>
+
+</RelativeLayout>

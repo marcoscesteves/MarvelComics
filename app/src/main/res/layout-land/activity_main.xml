@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" style="@style/divMatchParent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar android:layout_height="50dp" android:layout_width="match_parent"
+        android:id="@+id/main_toolBar" xmlns:android="http://schemas.android.com/apk/res/android"
+        android:background="@color/colorPrimary"
+        android:elevation="5dp">
+
+        <RelativeLayout style="@style/divMatchParent"
+            android:visibility="visible">
+
+            <android.support.v7.widget.AppCompatImageButton android:id="@+id/btn_goToPerfil"
+                android:layout_height="30dp"            android:layout_width="30dp"
+                android:layout_alignParentEnd="true"    android:layout_centerVertical="true"
+                android:layout_marginEnd="25dp"
+                android:background="@drawable/quemsou"  android:src="@drawable/ic_person_white_24dp" />
+                <!--android:cropToPadding="true"-->
+
+            <android.support.v7.widget.AppCompatImageView
+                android:layout_width="80dp"             android:layout_height="30dp"
+                android:layout_centerVertical="true"    android:layout_marginLeft="5dp"
+                android:src="@drawable/marvel_logo_v2" />
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerInParent="true"
+            android:elevation="5dp"
+            android:visibility="gone" />
+
+        <in.srain.cube.views.GridViewWithHeaderAndFooter style="@style/divMatchParent" android:id="@+id/gridView"
+            android:numColumns="auto_fit" android:columnWidth="170dp"
+            android:paddingTop="10dp"
+            android:padding="2dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="5dp"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
