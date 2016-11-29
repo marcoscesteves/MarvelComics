@@ -1,6 +1,6 @@
 # MarvelComics (Engish)
 
-Project initially developed for the Google Development Group Challenge (GDG-ABC). This version has some improvements and changes from the original one.
+Project initially developed for the _Google Development Group_ Challenge (GDG-ABC). This version has some improvements and changes from the original one.
 
 ## Description of the Challange:
 https://goo.gl/YmEuNb
