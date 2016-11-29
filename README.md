@@ -30,7 +30,7 @@ https://goo.gl/YmEuNb
 ## Fontes utilizadas:
 
 - American Captain font (font freeware para usos não comerciais - http://www.fontspace.com/the-fontry/american-captain)
-- Imagens provenientes do portal Pexels (https://www.pexels.com) - livres tanto para uso sem fins lucrativos, quando não comerciais:
+- Imagens provenientes do portal Pexels (https://www.pexels.com) - livres para uso pessoal e comercial:
  * Imagem contendo teia de aranha (RevistaDetalhes.class): https://www.pexels.com/photo/spider-web-34225/
  * Tela com código (PerfilActivity.class): https://static.pexels.com/photos/239898/pexels-photo-239898.jpeg
 
