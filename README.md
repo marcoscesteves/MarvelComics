@@ -2,13 +2,16 @@
 
 Project initially developed for the _Google Development Group_ Challenge (GDG-ABC). This version has some improvements and changes from the original one.
 
-## Description of the Challange:
+## Brief Description of The APP:
+APP which connects to a server and gets images and decription of magazines. I included some animations between activity transitions. 
+
+## Complete Description of the Challange:
 https://goo.gl/YmEuNb
 
 ## References
 I used the fonts/imagens described bellow.
-- American Captain font (free for non-comercial use - http://www.fontspace.com/the-fontry/american-captain)
-- Imagens from the Pexels site (https://www.pexels.com) - free for personal or comercial use:
+- _American Captain- font (free for non-comercial use - http://www.fontspace.com/the-fontry/american-captain)
+- Images from the Pexels site (https://www.pexels.com) - free for personal and comercial use:
  * Image with spider web (RevistaDetalhes.class): https://www.pexels.com/photo/spider-web-34225/
  * Image with notebook screen showing code (PerfilActivity.class): https://static.pexels.com/photos/239898/pexels-photo-239898.jpeg
 
@@ -17,11 +20,13 @@ I used the fonts/imagens described bellow.
  
 Projeto originariamente desenvolvido para desafio no Grupo de Desenvolvedores da Google (GDG-ABC). Esta versão possui algumas melhorias e mudanças.
 
-## Proposta do desafio: 
+## Descrição breve do APP:
+Aplicativo que recebe informações de um servidor, contendo imagens e informações de revistas vendidas. Na parte gráfica, inclui algumas animação na trasição das Telas.
+
+## Edital completo do desafio: 
 
 https://goo.gl/YmEuNb
  
-
 ## Fontes utilizadas:
 
 - American Captain font (font freeware para usos não comerciais - http://www.fontspace.com/the-fontry/american-captain)
