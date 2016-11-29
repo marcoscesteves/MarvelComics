@@ -1,4 +1,4 @@
-# MarvelComics (Engish)
+# MarvelComics (English)
 
 Project initially developed for the _Google Development Group_ Challenge (GDG-ABC). This version has some improvements and changes from the original one.
 
