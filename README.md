@@ -10,7 +10,7 @@ https://goo.gl/YmEuNb
 
 ## References
 I used the fonts/imagens described bellow.
-- _American Captain- font (free for non-comercial use - http://www.fontspace.com/the-fontry/american-captain)
+- _American Captain_ font (free for non-comercial use - http://www.fontspace.com/the-fontry/american-captain)
 - Images from the Pexels site (https://www.pexels.com) - free for personal and comercial use:
  * Image with spider web (RevistaDetalhes.class): https://www.pexels.com/photo/spider-web-34225/
  * Image with notebook screen showing code (PerfilActivity.class): https://static.pexels.com/photos/239898/pexels-photo-239898.jpeg
