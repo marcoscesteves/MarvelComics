@@ -13,7 +13,7 @@ I used the fonts/imagens described bellow.
  * Image with notebook screen showing code (PerfilActivity.class): https://static.pexels.com/photos/239898/pexels-photo-239898.jpeg
 
 
-# MarvelComics (português)
+# MarvelComics (Português)
  
 Projeto originariamente desenvolvido para desafio no Grupo de Desenvolvedores da Google (GDG-ABC). Esta versão possui algumas melhorias e mudanças.
 
