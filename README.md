@@ -1,36 +1,33 @@
-# MarvelComics (English)
+# MarvelComics
 
-Project initially developed for the _Google Development Group_ Challenge (GDG-ABC). This version has some improvements and changes from the original one.
+> 🇺🇸 [Read in English](README.en.md)
 
-## Brief Description of The APP:
-APP which connects to a server and gets images and decription of magazines. I included some animations between activity transitions. 
+Este protótipo foi desenvolvido para o desafio Android do Google Developers Group (GDG-ABC/SP).
+O objetivo era criar, em apenas uma semana, um aplicativo Android que consumisse a API pública da Marvel e funcionasse como um catálogo de revistas em quadrinhos, exibindo lista, detalhes e capas em tela cheia.
+Durante o evento, este projeto foi escolhido como vencedor do desafio.
 
-## Complete Description of the Challange:
-https://goo.gl/YmEuNb
+## Demonstração em vídeo
 
-## References
-I used the fonts/imagens described bellow.
-- _American Captain_ font (free for non-comercial use - http://www.fontspace.com/the-fontry/american-captain)
-- Images from the Pexels site (https://www.pexels.com) - free for personal and comercial use:
- * Image with spider web (RevistaDetalhes.class): https://www.pexels.com/photo/spider-web-34225/
- * Image with notebook screen showing code (PerfilActivity.class): https://static.pexels.com/photos/239898/pexels-photo-239898.jpeg
+[![Assista à demonstração do app](https://img.youtube.com/vi/mSgj3Gf6RXc/0.jpg)](https://www.youtube.com/watch?v=mSgj3Gf6RXc)
 
 
-# MarvelComics (Português)
- 
-Projeto originariamente desenvolvido para desafio no Grupo de Desenvolvedores da Google (GDG-ABC). Esta versão possui algumas melhorias e mudanças.
+## Descrição Breve do APP
 
-## Descrição breve do APP:
-Aplicativo que recebe informações de um servidor, contendo imagens e informações de revistas vendidas. Na parte gráfica, inclui algumas animação na trasição das Telas.
+Aplicativo que se conecta a um servidor e recebe informações contendo imagens e descrições de revistas. Inclui algumas animações nas transições entre as telas (Activities).
 
-## Edital completo do desafio: 
+## Edital Completo do Desafio
 
-https://goo.gl/YmEuNb
- 
-## Fontes utilizadas:
+[ChallengeGDG_ABC.pdf](ChallengeGDG_ABC.pdf)
 
-- American Captain font (font freeware para usos não comerciais - http://www.fontspace.com/the-fontry/american-captain)
+
+## Referências
+
+Fontes e imagens utilizadas:
+
+- **American Captain** font (freeware para usos não comerciais - http://www.fontspace.com/the-fontry/american-captain)
 - Imagens provenientes do portal Pexels (https://www.pexels.com) - livres para uso pessoal e comercial:
- * Imagem contendo teia de aranha (RevistaDetalhes.class): https://www.pexels.com/photo/spider-web-34225/
- * Tela com código (PerfilActivity.class): https://static.pexels.com/photos/239898/pexels-photo-239898.jpeg
+  * Imagem contendo teia de aranha (`RevistaDetalhes.class`): https://www.pexels.com/photo/spider-web-34225/
+  * Tela com código (`PerfilActivity.class`): https://static.pexels.com/photos/239898/pexels-photo-239898.jpeg
 
+## Observação final
+Este repositório contém uma versão ligeiramente aprimorada do projeto originalmente apresentado no desafio. As melhorias realizadas são pontuais e não alteram a proposta original da aplicação.
